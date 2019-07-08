@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c4abdbe1-0e33-4921-8119-48dccfb05c72"
+mode="Desktop"
+rxversion="8.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectGender"
+	namespace="RxDatabase.Database_functions">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="8;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="603cce4f-3f8a-49d2-9df6-1997b6808991"
+		sx="471"
+		sy="459"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a47a714c-11a3-4925-b181-0c2445fd1e45"
+			sourcename="Recorder">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname=$selGender]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="325c474d-3682-4384-9480-32a2d1401219"
+	name="RxDatabaseRepository"
+	relativepath="..\RxDatabaseRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="RxDatabaseRepository"
+		namespace="RxDatabase">
+		</codegen>
+		<rootfolder
+		id="7ed330c8-5668-4cfa-9ca9-402c4c23b7e2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectGender.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
